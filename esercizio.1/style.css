@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Todhri&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Todhri&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,700;1,700&display=swap');
+
+body{
+    display:flex;
+    margin: 20px;
+    height:100vh;
+    font-family: "Roboto Condensed", serif;
+}
+
+#prima-barra{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    
+}
+
+#linea-verticale{
+    background: #000000; 
+    width: 3px; ;
+}
+
+.hobby h2{
+    padding-left: 1.8em;
+    margin: 0.5em;
+}
+
+.hobby ul{
+    margin: 0.1em;
+    padding-left: 4.3em;
+}
+
+#immagine-profilo{
+    width:88%;
+    border-radius: 180px;
+    align-items: center;
+}
+
+.icone{
+    display: flex;
+    font-size: 1.5em;
+    padding: 0.5em ;
+    align-items: center;
+
+}
+
+.icone span{
+    display: flex;
+    font-size: 0.6em;
+    padding: 0.5em;
+}
+
+#seconda-barra{
+    display:flex;
+    height:30%;
+    width: 80%;
+    flex-direction: column;
+    padding-left: 3em;
+}
+
+#Nome{
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+#tabelle{
+    display:block;
+    width: 80em;
+    flex-direction: column;
+}
+
+caption p{
+    font-size: 2em;
+    margin: 0;
+}
+
+ table, th, td {
+    border: solid 2px black;
+    border-collapse: collapse;
+ }
+
+ td{
+    padding: 0 3px;
+ }
+
+thead{
+    width: 20em;
+}
+table{
+    width: 40em;
+}
